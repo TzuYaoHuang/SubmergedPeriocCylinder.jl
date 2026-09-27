@@ -1,0 +1,36 @@
+# Julia
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+*.jl.*.mem
+deps/deps.jl
+deps/build.log
+deps/downloads/
+deps/usr/
+deps/src/
+
+# Manifest (machine-specific; Project.toml uses a local path source)
+Manifest.toml
+Manifest-v*.toml
+
+# Documentation
+docs/build/
+docs/site/
+
+# Generated output (keep the directory)
+gfx/*
+!gfx/.gitkeep
+*.jld2
+*.vtk
+*.vtr
+*.vti
+*.pvd
+*.gif
+*.mp4
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
